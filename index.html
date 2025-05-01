@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Empowering Innovation with Microsoft</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 40px;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px 20px;
+      gap: 40px;
+    }
+
+    .main-content {
+      flex: 2;
+    }
+
+    .sidebar {
+      flex: 1;
+    }
+
+    h1 {
+      color: #0067b8;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .news-card {
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+
+    .news-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .news-card h2 {
+      font-size: 22px;
+      color: #000;
+    }
+
+    .news-card p {
+      font-size: 16px;
+    }
+
+    .news-card small {
+      color: #666;
+      font-size: 14px;
+    }
+
+    button {
+      background-color: #0067b8;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #004f94;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      color: #666;
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo">
+  <span><strong>Official Microsoft Blog</strong></span>
+</header>
+
+<div class="container">
+  <div class="main-content">
+    <h1>Featured</h1>
+    <div class="news-card">
+      <img src="https://news.microsoft.com/wp-content/uploads/prod/sites/626/2020/01/Microsoft-logo-social.png" alt="Featured Microsoft Image">
+      <small>Apr 28, 2025 | Judson Althoff - Executive Vice President and Chief Commercial Officer</small>
+      <h2>How agentic AI is driving AI-first business transformation for customers to achieve more</h2>
+      <p>Explore how Microsoft’s cutting-edge AI solutions are empowering businesses to innovate faster and deliver greater value.</p>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <h1>More News</h1>
+    <div class="news-card">
+      <small>Mar 19, 2025 | Microsoft Corporate Blogs</small>
+      <h2>Microsoft senior leadership update</h2>
+      <p>EVP, Chief People Officer and EVP, Office of Strategy and Transformation</p>
+    </div>
+    <div class="news-card">
+      <img src="https://news.microsoft.com/uploads/prod/sites/626/2024/03/AccessibilitySummit-2025.jpg" alt="Accessibility Summit">
+      <small>Mar 18, 2025 | Jenny Lay-Flurrie - Chief Accessibility Officer</small>
+      <h2>Microsoft Ability Summit 2025</h2>
+      <p>Accessibility in the AI era and Microsoft's continued commitment to inclusive technology.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="flex-direction: column;">
+  <button onclick="openAllLinks()">Open All Microsoft Resources</button>
+</div>
+
+<footer>
+  &copy; 2025 Microsoft Resources Blog. All rights reserved.
+</footer>
+
+<script>
+  function openAllLinks() {
+    const links = [
+      "https://azure.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://blog.fabric.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://code.visualstudio.com?wt.mc_id=studentamb_466792",
+      "https://community.fabric.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://devblogs.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://developer.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://dotnet.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://events.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://foundershub.startups.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://imaginecup.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://learn.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://learn.microsoft.com/copilot?wt.mc_id=studentamb_466792",
+      "https://reactor.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://mvp.microsoft.com?wt.mc_id=studentamb_466792",
+      "https://microsoft.com/microsoft-cloud/blog?wt.mc_id=studentamb_466792",
+      "https://microsoft.com/microsoft-fabric?wt.mc_id=studentamb_466792",
+      "https://microsoft.com/startups?wt.mc_id=studentamb_466792",
+      "https://techcommunity.microsoft.com?wt.mc_id=studentamb_466792"
+    ];
+    links.forEach(url => window.open(url, '_blank'));
+  }
+</script>
+
+</body>
+</html>
